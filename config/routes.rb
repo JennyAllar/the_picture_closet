@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
-  post "headshot/capture" => 'headshot#capture', :as => :headshot_capture
-  root 'welcome#index'
-  
+  devise_for :users
+  root :to => "home#index"
+
   resources :photos
 end
 
