@@ -28,7 +28,7 @@
 
 
 body {
-    background-color:#000;
+    background-color:#BD5532;
 
 }
 
@@ -42,21 +42,21 @@ body {
 }
 
 header {
-    background-color: #5ACDB0;
+    background-color: #373B44;
 }
 
 nav {
-    background-color: #C6FCA8;
+    background-color: #BD5532;
     overflow: hidden;
 }
 
 #content {
-    background-color: #FBFDD5;
+    background-color: #E1B866;
 }
 
 
 footer {
-    background-color: #CCD5AA;
+    background-color: #73C8A9;
 }
 
 
@@ -117,7 +117,7 @@ footer {
 #menu li a {
     font-size: 120%;
     font-weight: bold;
-    color: #fff;
+    color: #DEE1B6;
     padding: 17px 25px 15px 25px;
     display: block;
     text-decoration: none;
@@ -148,5 +148,6 @@ footer {
 
 #sign_in_up {
   float: right;
+  link: red;
 }
 
